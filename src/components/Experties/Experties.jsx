@@ -38,18 +38,18 @@ const Experties = () => {
             variants={textVariant(0.5)}
             className={css.rightSide}>
 
-                <span className='primaryText'>What do I help? </span>
+                <span className='primaryText'>En que te puedo ayudar? </span>
                 {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
 
 
                 <div className={`flexCenter ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
                         <span className='primaryText'>285+</span>
-                        <span className='secondaryText'>Project Completed</span>
+                        <span className='secondaryText'>Proyetos Terminados</span>
                     </div>
                     <div className={`flexCenter ${css.stat}`}>
                         <span className='primaryText'>190+</span>
-                        <span className='secondaryText'>Happy Clients</span>
+                        <span className='secondaryText'>Clientes Felices</span>
                     </div>
                 </div>
             </motion.div>

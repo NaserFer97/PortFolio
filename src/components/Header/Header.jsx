@@ -27,19 +27,21 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Binjan</div>
+        <div className={css.name}>Naser</div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">Services</a></li>
-          <li><a href="#work">Experience</a></li>
+          <li><a href="#experties">Servicios</a></li>
+          <li><a href="#work">Experiencia</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimonials</a></li>
+          <li><a href="./cvNaser.pdf" download className={css.descargar}>Descargar CV</a></li>
+          <li><a href="#people">Testimonios</a></li>
           <li className={`flexCenter ${css.phone}`}>
-            <p>+001 (313) 345 678</p>
-            <BiPhoneCall size={"40px"} />
+           <a href="https://api.whatsapp.com/send?phone=595982906021"> <p>+595 982 906 021</p></a>
+           <a href="https://api.whatsapp.com/send?phone=595982906021"><BiPhoneCall size={"40px"} /> </a>
+            
           </li>
         </ul>
 

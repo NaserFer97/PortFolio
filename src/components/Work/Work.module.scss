@@ -4,25 +4,34 @@
     .container {
         flex-direction: column;
         gap: 2rem;
+        
 
         .experiences {
             width: 100%;
             flex-direction: column;
             gap: 1.4rem;
             position: relative;
+            
+            
 
             .exp {
                 width: 100%;
                 justify-content: space-between;
                 line-height: 40px;
                 align-items: flex-start;
+                font-size: 13px;
+                
 
                 >div {
                     flex: 1;
+                    
+                    
                 }
 
                 .role {
                     margin-left: 2rem;
+                    
+                    
                 }
             }
 
@@ -36,7 +45,7 @@
 
                 .line {
                     position: absolute;
-                    height: 92%;
+                    height: 100%;
                     width: 2px;
                     background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
                     background-position: right;
@@ -49,8 +58,9 @@
 
                 >div {
                     flex: 1;
-                    padding-top: .8rem;
+                    padding-top: .2rem;
                     z-index: 2;
+                    
 
                     .circle {
                         border-radius: 50%;
